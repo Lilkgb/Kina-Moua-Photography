@@ -5,8 +5,10 @@ function Header(){
 
   return(
     <div className="header">
-      <Link to='/'>Home</Link>
-      <h2>Welcome New User</h2>
+      <div className="top">
+        <h1>KINA MOUA</h1>
+        <h3>Portland/Vancouver-based <span>Photography</span></h3>
+      </div>
     </div>
   )
 }
