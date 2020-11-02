@@ -5,9 +5,11 @@ function Header(){
 
   return(
     <div className="header">
-      <div className="top">
-        <h1>KINA MOUA</h1>
-        <h3>Portland/Vancouver-based <span>Photography</span></h3>
+      <div className="nav">
+        <p>Home</p>
+        <p>Pricing & Packages</p>
+        <p>Faq</p>
+        <p>Contact Me</p>
       </div>
     </div>
   )
