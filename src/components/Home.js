@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from './Header';
-import Banner from './Banner';
 import {store} from '../index';
 import {testFunction} from '../actions/index';
 
@@ -12,8 +10,6 @@ function Home(props){
 
   return(
     <div>
-      <Banner />
-      <Header />
       <h1>Welcome to the home component</h1>
       <button onClick={testRedux}>Test Reducer Function. Open console to see console log.</button>
       <h1>What is Lorem Ipsum?
