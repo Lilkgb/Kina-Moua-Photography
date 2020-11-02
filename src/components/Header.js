@@ -1,18 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import { NavLink, withRouter  } from 'react-router-dom';
 function Header(){
 
   return(
     <div className="header">
       <div className="nav">
-        <Link>Home</Link>
-        <Link>Pricing & Packages</Link>
-        <Link>Faq</Link>
-        <Link>Contact Me</Link>
+        <NavLink exact to='/' activeClassName="active">Home</NavLink>
+        <NavLink to='/pricing&packages' activeClassName="active">Pricing & Packages</NavLink>
+        <NavLink to='/faq' activeClassName="active">Faq</NavLink>
+        <NavLink to='/contactMe' activeClassName="active">Contact Me</NavLink>
       </div>
     </div>
   )
 }
 
-export default Header
+export default withRouter(Header);
