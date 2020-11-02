@@ -6,10 +6,10 @@ function Header(){
   return(
     <div className="header">
       <div className="nav">
-        <p>Home</p>
-        <p>Pricing & Packages</p>
-        <p>Faq</p>
-        <p>Contact Me</p>
+        <Link>Home</Link>
+        <Link>Pricing & Packages</Link>
+        <Link>Faq</Link>
+        <Link>Contact Me</Link>
       </div>
     </div>
   )
